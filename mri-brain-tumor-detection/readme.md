@@ -95,8 +95,8 @@ graph TD
     U --> V[Linear: 512->4]
     V --> W[Output: 4 classes]
 
-    subgraph ResidualBlock 32-->64
-        G1[Conv2d: 32-->64, 3x3, padding=1] --> G2[BatchNorm2d]
+    subgraph ResidualBlock 32->64
+        G1[Conv2d: 32->64, 3x3, padding=1] --> G2[BatchNorm2d]
         G2 --> G3[ReLU]
         G3 --> G4[Conv2d: 64->64, 3x3, padding=1]
         G4 --> G5[BatchNorm2d]
@@ -104,7 +104,7 @@ graph TD
         G7[Shortcut: Conv2d 1x1, BatchNorm] --> G6
     end
 
-    subgraph ResidualBlock 64-->128
+    subgraph ResidualBlock 64->128
         J1[Conv2d: 64->128, 3x3, padding=1] --> J2[BatchNorm2d]
         J2 --> J3[ReLU]
         J3 --> J4[Conv2d: 128->128, 3x3, padding=1]
