@@ -89,28 +89,36 @@ graph TD
     O --> P[MaxPool2d: 2x2]
     P --> Q[Dropout: 0.25]
     Q --> R[Flatten]
-    R --> S[Linear: 128*14*14->512]
+    R --> S[Linear: 128x14x14->512]
     S --> T[ReLU]
     T --> U[Dropout: 0.5]
     U --> V[Linear: 512->4]
     V --> W[Output: 4 classes]
 
-    subgraph ResidualBlock 32->64
-        G1[Conv2d: 32->64, 3x3, padding=1] --> G2[BatchNorm2d]
+    subgraph ResidualBlock_32_64
+        G1[Conv2d: 32->64, 3x3, padding=1] --> G2[BatchNorm2d: 64]
         G2 --> G3[ReLU]
         G3 --> G4[Conv2d: 64->64, 3x3, padding=1]
-        G4 --> G5[BatchNorm2d]
+        G4 --> G5[BatchNorm2d: 64]
         G5 --> G6[Add: Shortcut]
-        G7[Shortcut: Conv2d 1x1, BatchNorm] --> G6
+        G7[Shortcut: Conv2d: 32->64, 1x1] --> G8[BatchNorm2d: 64]
+        G8 --> G6
+        F --> G1
+        F --> G7
+        G6 --> G
     end
 
-    subgraph ResidualBlock 64->128
-        J1[Conv2d: 64->128, 3x3, padding=1] --> J2[BatchNorm2d]
+    subgraph ResidualBlock_64_128
+        J1[Conv2d: 64->128, 3x3, padding=1] --> J2[BatchNorm2d: 128]
         J2 --> J3[ReLU]
         J3 --> J4[Conv2d: 128->128, 3x3, padding=1]
-        J4 --> J5[BatchNorm2d]
+        J4 --> J5[BatchNorm2d: 128]
         J5 --> J6[Add: Shortcut]
-        J7[Shortcut: Conv2d 1x1, BatchNorm] --> J6
+        J7[Shortcut: Conv2d: 64->128, 1x1] --> J8[BatchNorm2d: 128]
+        J8 --> J6
+        I --> J1
+        I --> J7
+        J6 --> J
     end
 ```
 
