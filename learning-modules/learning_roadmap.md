@@ -27,6 +27,7 @@ This phase remains largely unchanged, as it builds the mathematical and data sci
   - Kaggle’s Python and Pandas courses
   - Hugging Face Datasets documentation
   - “Python Data Science Handbook” by Jake VanderPlas
+  - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/)
 
 #### Module 2: Mathematics for ML
 - **Duration**: 2-3 weeks
