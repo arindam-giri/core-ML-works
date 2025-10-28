@@ -54,8 +54,8 @@ This phase remains largely unchanged, as it builds the mathematical and data sci
 - **Practical**:
   - Perform EDA on a text dataset (e.g., IMDb reviews) and preprocess it with tokenization.
 - **Resources**:
-  - Coursera: “Introduction to Data Science” by IBM
-  - Hugging Face Tokenizer documentation
+  - Coursera: “Introduction to Data Science” by IBM [Link to coursera](https://www.coursera.org/specializations/introduction-data-science#courses)
+  - Hugging Face Tokenizer documentation [link to HG docs](https://huggingface.co/docs/tokenizers/index)
 
 ---
 
