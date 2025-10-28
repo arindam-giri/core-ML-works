@@ -28,6 +28,7 @@ This phase remains largely unchanged, as it builds the mathematical and data sci
   - Hugging Face Datasets documentation
   - “Python Data Science Handbook” by Jake VanderPlas
   - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/)
+  - [Main index](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks_v1/Index.ipynb)
 
 #### Module 2: Mathematics for ML
 - **Duration**: 2-3 weeks
