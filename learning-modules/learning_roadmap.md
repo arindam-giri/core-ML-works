@@ -45,9 +45,9 @@ This phase remains largely unchanged, as it builds the mathematical and data sci
   - “Mathematics for Machine Learning” by Marc Peter Deisenroth
   - Jay Alammar’s “The Illustrated Transformer” (section on attention)
   - 3b1b youtube playlist - [essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-  - Math for Deep learning - Prof A Geiger University of tuebingen (link)[https://uni-tuebingen.de/de/241678]
-  - (linear algebra for AI ML blog)[https://www.trybackprop.com/blog/linalg101/part_1_vectors_matrices_operations]
-  - (Linear algebra MIT lectures Gilbert Strang Youtube)[https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D]
+  - Math for Deep learning - Prof A Geiger University of tuebingen [link](https://uni-tuebingen.de/de/241678)
+  - [linear algebra for AI ML blog](https://www.trybackprop.com/blog/linalg101/part_1_vectors_matrices_operations)
+  - [Linear algebra MIT lectures Gilbert Strang Youtube](https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D)
 
 #### Module 3: Introduction to Data Science
 - **Duration**: 1-2 weeks
