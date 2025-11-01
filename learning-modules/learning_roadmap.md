@@ -23,6 +23,7 @@ This phase remains largely unchanged, as it builds the mathematical and data sci
 - **Practical**:
   - Analyze a sample dataset (e.g., Titanic) using Pandas; visualize with Matplotlib.
   - Load and explore a text dataset using Hugging Face Datasets.
+  - Some practice around Data cleaning, preprocessing, and EDA (Exploratory Data Analysis)
 - **Resources**:
   - Kaggle’s Python and Pandas courses
   - Hugging Face Datasets documentation
